@@ -1,0 +1,12 @@
+# Pastas que o PyInstaller cria (Não subir!)
+build/
+dist/
+*.spec
+
+# Pastas de ambiente virtual e cache
+__pycache__/
+venv/
+.env
+
+# Arquivos do VS Code
+.vscode/
