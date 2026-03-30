@@ -1,12 +1,49 @@
-# Pastas que o PyInstaller cria (Não subir!)
+### --- PRIVACIDADE (DADOS DO CASAL) ---
+# Ignora o arquivo onde ficam salvos os valores e gastos reais
+dados_financeiros.json
+
+### --- PYTHON ---
+# Ignora pastas de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### --- AMBIENTES VIRTUAIS ---
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### --- EXECUTÁVEL (PyInstaller) ---
+# Ignora as pastas que o PyInstaller cria ao gerar o .exe
 build/
 dist/
 *.spec
 
-# Pastas de ambiente virtual e cache
-__pycache__/
-venv/
-.env
-
-# Arquivos do VS Code
+### --- VS CODE / IDEs ---
 .vscode/
+.idea/
+*.swp
+*.swo
+
+### --- SISTEMA OPERACIONAL ---
+.DS_Store
+Thumbs.db

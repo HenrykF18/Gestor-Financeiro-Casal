@@ -1,26 +1,26 @@
-# Gestor Financeiro do Casal 🚀
+# Financeiro para Casal - Gestor de Gastos
 
-Aplicativo de controle financeiro doméstico desenvolvido em **Python** com interface gráfica **Tkinter**. O software foi projetado para oferecer agilidade no lançamento de dados, apresentando o cálculo imediato do saldo líquido e da renda total conforme os valores são inseridos.
-
----
-
-## ✨ Recursos Principais
-
-* **⌨️ Navegação Otimizada:** Workflow via teclado utilizando as teclas `Enter` e `Tab` para maior produtividade.
-* **🛠️ Gestão de Lançamentos:** Funções para desfazer o último gasto registrado ou resetar todos os campos para um novo mês.
-* **🔢 Compatibilidade:** Sistema preparado para tratar diferentes formatos de entrada numérica (ponto ou vírgula).
-* **📦 Executável Independente:** Disponível em formato `.exe` para uso direto no Windows.
+O **Financeiro para Casal** é uma ferramenta leve e prática para organizar as contas do mês. Ele permite que você e sua parceria acompanhem a renda total, listem gastos individuais e visualizem o saldo restante em tempo real.
 
 ---
 
-## 🚀 Como Executar o Projeto
+## ✨ Diferenciais deste Gestor
 
-### 1. Usando o Executável (Recomendado)
-Basta baixar o arquivo `calculadora.exe` na aba [Releases](https://github.com/HenrykF18/Gestor-Financeiro-Casal/releases) e executar no Windows.
+- **💾 Memória Automática:** Tudo o que você digita é salvo instantaneamente. Pode fechar o app e abrir amanhã que os dados estarão lá.
+- **⚡ Atalhos de Teclado:**
+  - `Enter`: Pula para o próximo campo ou adiciona o gasto.
+  - `Tab`: Gera um relatório detalhado na tela.
+- **📊 Resumo em Tempo Real:** O saldo fica verde se estiver sobrando e vermelho se estiver faltando.
+- **📂 Exportação:** Botão para gerar um relatório textual pronto para conferência.
 
-### 2. Rodando o Código Fonte
-Se preferir rodar via Python, você precisará ter o Python instalado e seguir os passos:
+---
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/HenrykF18/Gestor-Financeiro-Casal.git](https://github.com/HenrykF18/Gestor-Financeiro-Casal.git)
+## 🔒 Privacidade e Segurança
+Os dados financeiros são salvos localmente no arquivo `dados_financeiros.json` dentro da pasta do aplicativo. **Nenhum dado é enviado para a internet.**
+
+---
+
+## 🛠️ Tecnologias
+- Linguagem: Python 3.x
+- Interface: Tkinter
+- Armazenamento: JSON
